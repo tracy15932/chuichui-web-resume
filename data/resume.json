@@ -10,6 +10,10 @@
     {
       "title": "",
       "score": 25
+    },
+    {
+      "title": "",
+      "score": 25
     }
   ],
   "second_skill_title": "",
@@ -35,9 +39,27 @@
       "major": "",
       "school": "",
       "description": ""
+    },
+    {
+      "year": "",
+      "major": "",
+      "school": "",
+      "description": ""
     }
   ],
   "experience": [
+    {
+      "year": "",
+      "job_title": "",
+      "company": "",
+      "description": ""
+    },
+    {
+      "year": "",
+      "job_title": "",
+      "company": "",
+      "description": ""
+    },
     {
       "year": "",
       "job_title": "",
