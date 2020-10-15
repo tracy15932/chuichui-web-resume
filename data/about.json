@@ -1,6 +1,8 @@
 {
   "subtitles": "Artist, Thinker, Creative Doer, Fucker",
   "story_title": "I am Web fucker/Designer @ fucker.com",
+  "story_content_p1": "Very long story",
+  "story_content_p2": "Very long stroy 2",
   "services": [
     {
       "title": "Web Design",
@@ -40,6 +42,23 @@
       "icon": "",
       "title": "",
       "content": ""
+    }
+  ],
+  "testimonials": [
+    {
+      "content": "Some long long story",
+      "author": "some author",
+      "firm": "author firm inc."
+    },
+    {
+      "content": "Some long long story",
+      "author": "some author",
+      "firm": "author firm inc."
+    },
+    {
+      "content": "Some long long story",
+      "author": "some author",
+      "firm": "author firm inc."
     }
   ]
 }
