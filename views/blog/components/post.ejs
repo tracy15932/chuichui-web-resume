@@ -9,17 +9,20 @@
         <span class="divider">|</span>
         <span class="date"><i class="fa fa-fw fa-clock-o"></i> <%= blog.cfulldate %></span>
         <!-- Share Buttons -->
-        <!--                    <div class="btn-group share-buttons pull-right hidden-xs">-->
-        <!--                        <a href="#" target="_blank" class="btn"><i class="fa fa-facebook"></i> </a>-->
-        <!--                        <a href="#" target="_blank" class="btn"><i class="fa fa-twitter"></i> </a>-->
-        <!--                        <a href="#" target="_blank" class="btn"><i class="fa fa-dribbble"></i> </a>-->
-        <!--                    </div>-->
+        <div class="btn-group share-buttons pull-right hidden-xs">
+
+
+            <a class="btn"
+               data-href="https://www.tracytsai950217.com/blog?blog_id=<%= blog._id %>"
+               data-layout="button_count"><i class="fa fa-facebook"></i></a>
+            <!--                        <a href="#" target="_blank" class="btn"><i class="fa fa-twitter"></i> </a>-->
+            <!--                        <a href="#" target="_blank" class="btn"><i class="fa fa-dribbble"></i> </a>-->
+        </div>
         <!-- /Share Buttons -->
     </div>
 
+    <% include coment_list.ejs %>
 
-    <% include coment_list.ejs%>
-
-    <% include new_comment.ejs%>
+    <% include new_comment.ejs %>
 
 </div>
