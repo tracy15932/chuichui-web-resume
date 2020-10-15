@@ -3,7 +3,7 @@ class HomeAction {
         return require('../data/contact');
     }
 
-    static findAboutMeInfo(){
+    static findAboutMeInfo() {
         return require('../data/about');
     }
 }

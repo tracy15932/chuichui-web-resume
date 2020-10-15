@@ -7,11 +7,13 @@ router.get('/', function (req, res, next) {
 
 
     const contact_info = HomeAction.findContactInfo();
+    const about_info = HomeAction.findAboutMeInfo();
     res.render('index/root.ejs',
 
         {
             title: 'Binny Web Resume',
-            contact_info
+            contact_info,
+            about_info
         }
     );
 });
