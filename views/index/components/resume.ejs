@@ -11,8 +11,8 @@
             </div>
             <div class="timeline">
                 <!-- Single event -->
-                <% for(let i = 0;i < resume_info.educations.length;i++){ %>
-                    <% const education = resume_info.educations[i] %>
+                <% for(let i = 0;i < resume_info.education_list.length;i++){ %>
+                    <% const education = resume_info.education_list[i] %>
                     <div class="timeline-event te-primary">
                         <h5 class="event-date"><%= education.year %></h5>
                         <h4 class="event-name"><%= education.major %></h4>
@@ -30,8 +30,8 @@
             <div class="timeline">
                 <!-- Single event -->
 
-                <% for(let i = 0;i < resume_info.experiences.length;i++){ %>
-                    <% const experience = resume_info.experiences[i] %>
+                <% for(let i = 0;i < resume_info.experience_list.length;i++){ %>
+                    <% const experience = resume_info.experience_list[i] %>
                     <div class="timeline-event te-primary">
                         <h5 class="event-date"><%= experience.year %></h5>
                         <h4 class="event-name"><%= experience.job_title %></h4>
@@ -47,8 +47,8 @@
                 <h3><%= resume_info.first_skill_title %></h3>
             </div>
             <div class="skills-info">
-                <% for(let i = 0;i < resume_info.first_skills.length;i++){ %>
-                    <% const skill = resume_info.first_skills[i] %>
+                <% for(let i = 0;i < resume_info.first_skill_list.length;i++){ %>
+                    <% const skill = resume_info.first_skill_list[i] %>
                     <h4><%= skill.title %></h4>
                     <div class="skill-container">
                         <div class="skill-percentage skill-<%= skill.score %>"></div>
@@ -60,8 +60,8 @@
                 <h3><%= resume_info.second_skill_title %></h3>
             </div>
             <div class="skills-info">
-                <% for(let i = 0;i < resume_info.second_skills.length;i++){ %>
-                    <% const skill = resume_info.second_skills[i] %>
+                <% for(let i = 0;i < resume_info.second_skill_list.length;i++){ %>
+                    <% const skill = resume_info.second_skill_list[i] %>
                     <h4><%= skill.title %></h4>
                     <div class="skill-container">
                         <div class="skill-percentage skill-<%= skill.score %>"></div>
@@ -73,7 +73,7 @@
     <div class="row">
         <div class="col-sm-12 col-md-12">
             <div class="download-cv-block">
-                <a class="button" target="_blank" href="#">Download CV</a>
+                <a class="button" target="_blank" href="/docs/chuichui-resume.pdf" download="binny-profile">Download CV</a>
             </div>
         </div>
     </div>

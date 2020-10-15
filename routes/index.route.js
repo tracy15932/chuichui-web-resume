@@ -2,9 +2,10 @@ const express = require('express');
 const router = express.Router();
 const HomeAction = require('../actions/home.action');
 
+const emailRouter = require('./email.route');
+
 /* GET home page. */
 router.get('/', function (req, res, next) {
-
 
     const contact_info = HomeAction.findContactInfo();
     const about_info = HomeAction.findAboutMeInfo();
@@ -21,5 +22,7 @@ router.get('/', function (req, res, next) {
         }
     );
 });
+
+router.use('/email',emailRouter);
 
 module.exports = router;

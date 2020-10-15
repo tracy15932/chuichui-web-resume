@@ -2,7 +2,7 @@
   "total_year": "1",
   "resume_link": "",
   "first_skill_title": "TECHNICAL SKILLS",
-  "first_skills": [
+  "first_skill_list": [
     {
       "title": "Python",
       "score": 9
@@ -21,17 +21,17 @@
     }
   ],
   "second_skill_title": "OTHER SKILLS",
-  "second_skills": [
+  "second_skill_list": [
     {
       "title": "Machine Learning",
       "score": 6
     },
     {
-      "title": "",
-      "score": 25
+      "title": "Wo Re",
+      "score": 3
     }
   ],
-  "educations": [
+  "education_list": [
     {
       "year": "",
       "major": "",
@@ -51,7 +51,7 @@
       "description": ""
     }
   ],
-  "experiences": [
+  "experience_list": [
     {
       "year": "",
       "job_title": "",
