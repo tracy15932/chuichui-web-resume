@@ -6,6 +6,13 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
+//MONGODB
+const {connectToServer} = require('./services/mongo.conn');
+connectToServer((err) => {
+    if (!err) console.log('MongoDB Connected.');
+});
+
+
 const indexRouter = require('./routes/index.route');
 
 const app = express();
