@@ -15,7 +15,7 @@
                             <img class="post-image img-responsive" src="<%= blog.img %>"
                                  alt="blog-post-1"/>
                             <div class="mask"></div>
-                            <div class="post-date"><span class="day">6</span><span class="month">Dec</span>
+                            <div class="post-date"><span class="day"><%=blog.cday%></span><span class="month"><%=blog.cmonth%></span>
                                 <!--<span class="year">2016</span>--></div>
                         </a>
                     </div>
@@ -23,7 +23,7 @@
                         <ul class="category">
                             <li><a href="#"><%=blog.subtitle%></a></li>
                         </ul>
-                        <a href="blog-post-1.html"><h4 class="blog-item-title"><%=blog.title%></h4></a>
+                        <a href="/blog?blog_id=<%=blog_id%>"><h4 class="blog-item-title"><%=blog.title%></h4></a>
                     </div>
                 </div>
             </div>

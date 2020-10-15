@@ -6,6 +6,7 @@ const BlogAction = require('../actions/blog.action');
 const emailRouter = require('./email.route');
 const blogRouter = require('./blog.route');
 
+
 /* GET home page. */
 router.get('/', async function (req, res, next) {
 
@@ -16,7 +17,7 @@ router.get('/', async function (req, res, next) {
 
     const {page} = req.query;
 
-    const blog_list = await BlogAction.findBlogList(((page || 1) - 1) * 30);
+    const blog_list = await BlogAction.findBlogList(((page < 1 ? 1 : page) - 1) * 30);
 
     res.render('index/root.ejs',
         {

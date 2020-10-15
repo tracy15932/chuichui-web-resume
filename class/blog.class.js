@@ -19,9 +19,21 @@ class CWBlog {
 
     }
 
-    async insertBlog(title, subtitle, content, img) {
+    async insertBlog(title, subtitle, content, tags, cover_image, header_image) {
         return new Promise((resolve, reject) => {
-            this.db.insert({title, subtitle, content, img}, (err, result) => {
+            const img = cover_image || `https://picsum.photos/id/${Math.round(Math.random() * 300)}/400/250`;
+            const header_img = header_image || 'https://picsum.photos/1920/900';
+            this.db.insert({
+                title,
+                subtitle,
+                content,
+                tags,
+                img,
+                cdate: new Date(),
+                udate: new Date(),
+                header_img,
+                status: 1
+            }, (err, result) => {
                 if (err) reject(err);
                 resolve(result);
             });
@@ -31,8 +43,7 @@ class CWBlog {
     static async findBlogList(offset = 0) {
         const db = this.configDB();
         return new Promise((resolve, reject) => {
-            db.find({}).skip(offset).limit(30).toArray((err, result) => {
-                console.log(result);
+            db.find({status: 1}).skip(offset).limit(30).toArray((err, result) => {
                 if (err) reject(err);
                 resolve(result);
             });

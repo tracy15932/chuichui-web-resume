@@ -1,0 +1,19 @@
+<div class="post-comment-add" id="add-comment">
+    <div class="block-title">
+        <h3>Leave a Comment</h3>
+    </div>
+    <form class="form-add-comment" method="POST" action="/blog/comment" >
+        <div class="form-group">
+            <input name="blog_id" value="<%= blog._id %>" type="hidden" hidden>
+            <input class="form-control" placeholder="Your name" name="author">
+            <div class="form-control-border"></div>
+            <i class="form-control-icon fa fa-user"></i>
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" placeholder="Message..." name="content"></textarea>
+            <div class="form-control-border"></div>
+            <i class="form-control-icon fa fa-comment"></i>
+        </div>
+        <button class="button" type="submit">Add comment</button>
+    </form>
+</div>

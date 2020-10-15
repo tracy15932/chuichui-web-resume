@@ -1,0 +1,25 @@
+<div class="blog-post-content">
+    <h1><%= blog.title %></h1>
+    <% include ./tags.ejs %>
+    <p><%= blog.content %></p>
+
+
+    <div class="post-info">
+        <span class="autor"><i class="fa fa-fw fa-user"></i><%= contact_info.name %></span>
+        <span class="divider">|</span>
+        <span class="date"><i class="fa fa-fw fa-clock-o"></i> <%= blog.cfulldate %></span>
+        <!-- Share Buttons -->
+        <!--                    <div class="btn-group share-buttons pull-right hidden-xs">-->
+        <!--                        <a href="#" target="_blank" class="btn"><i class="fa fa-facebook"></i> </a>-->
+        <!--                        <a href="#" target="_blank" class="btn"><i class="fa fa-twitter"></i> </a>-->
+        <!--                        <a href="#" target="_blank" class="btn"><i class="fa fa-dribbble"></i> </a>-->
+        <!--                    </div>-->
+        <!-- /Share Buttons -->
+    </div>
+
+
+    <% include coment_list.ejs%>
+
+    <% include new_comment.ejs%>
+
+</div>

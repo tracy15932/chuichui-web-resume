@@ -1,0 +1,28 @@
+<div class="post-comments">
+    <div class="block-title">
+        <h3>Comments (<%= comment_list.length || 0 %>)</h3>
+    </div>
+
+    <% for(let i = 0;i < comment_list.length; i++){ %>
+        <% const comment = comment_list[i] %>
+        <div class="media" style="margin-bottom: 30px">
+            <a class="pull-left" href="#">
+                <img class="media-object" src="<%=comment.img%>" alt="">
+            </a>
+            <div class="media-body">
+                <div class="media-heading">
+                    <a href="#"><%=comment.author%></a> <span class="divider">|</span> <span
+                            class="light-gray"><%= comment.cfulldate %></span>
+                </div>
+                <p><%= comment.content %></p>
+                <div class="media-footer">
+                    <a href="#add-comment"><i class="fa fa-reply"></i> Reply</a>
+                    <span class="divider"></span>
+<!--                    <i class="fa fa-thumbs-up"></i>-->
+<!--                    <span>0</span>-->
+<!--                    <i class="fa fa-thumbs-down"></i>-->
+                </div>
+            </div>
+        </div>
+    <% } %>
+</div>
