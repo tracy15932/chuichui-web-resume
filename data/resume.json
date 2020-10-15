@@ -1,0 +1,48 @@
+{
+  "total_year": "",
+  "resume_link": "",
+  "first_skill_title": "",
+  "first_skills": [
+    {
+      "title": "",
+      "score": 35
+    },
+    {
+      "title": "",
+      "score": 25
+    }
+  ],
+  "second_skill_title": "",
+  "second_skills": [
+    {
+      "title": "",
+      "score": 35
+    },
+    {
+      "title": "",
+      "score": 25
+    }
+  ],
+  "education": [
+    {
+      "year": "",
+      "major": "",
+      "school": "",
+      "description": ""
+    },
+    {
+      "year": "",
+      "major": "",
+      "school": "",
+      "description": ""
+    }
+  ],
+  "experience": [
+    {
+      "year": "",
+      "job_title": "",
+      "company": "",
+      "description": ""
+    }
+  ]
+}

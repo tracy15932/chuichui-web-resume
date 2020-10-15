@@ -1,0 +1,33 @@
+<section class="pt-page pt-page-1 section-with-bg section-paddings-0"
+         style="background-image: url(images/home_page_bg_1.jpg);" data-id="home">
+    <div class="home-page-block-bg">
+        <div class="mask"></div>
+    </div>
+    <div class="home-page-block">
+        <div class="v-align">
+            <h2><%= contact_info.name %></h2>
+            <div id="rotate" class="text-rotate">
+                <div>
+                    <p class="home-page-description"><%= contact_info.job_title_primary %></p>
+                </div>
+                <div>
+                    <p class="home-page-description"><%= contact_info.job_title_secondary %></p>
+                </div>
+            </div>
+
+            <div class="block end" style="text-align: center">
+                <ul class="info-list">
+                    <li><span class="title">Age</span><span class="value"><%= contact_info.age %></span></li>
+                    <li><span class="title">Address</span><span
+                                class="value"><%= contact_info.address %></span></li>
+                    <li><span class="title">e-mail</span><span class="value"><a
+                                    href="mailto:email@example.com"><%= contact_info.email %></a></span></li>
+                    <li><span class="title">Phone</span><span class="value"><%= contact_info.phone %></span>
+                    </li>
+                    <li><span class="title">Freelance</span><span
+                                class="value available">Available</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
