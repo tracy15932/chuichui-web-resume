@@ -2,7 +2,7 @@
   "total_year": "1",
   "resume_link": "",
   "first_skill_title": "TECHNICAL SKILLS",
-  "first_skill_list": [
+  "first_skills": [
     {
       "title": "Python",
       "score": 9
@@ -21,53 +21,48 @@
     }
   ],
   "second_skill_title": "OTHER SKILLS",
-  "second_skill_list": [
+  "second_skills": [
     {
       "title": "Machine Learning",
       "score": 6
     },
     {
-      "title": "Wo Re",
-      "score": 3
+      "title": "Project Management",
+      "score": 8
     }
   ],
-  "education_list": [
+  "educations": [
     {
-      "year": "",
-      "major": "",
-      "school": "",
-      "description": ""
+      "year": "2021.1 start",
+      "major": "Computer Science",
+      "school": "Georgia Institute of Technology",
+      "description": "Specilization in Machine Learning"
     },
     {
-      "year": "",
-      "major": "",
-      "school": "",
-      "description": ""
-    },
-    {
-      "year": "",
-      "major": "",
-      "school": "",
-      "description": ""
+      "year": "2013 - 2017",
+      "major": "Math/Econ with minor in Stats",
+      "school": "University of California, Los Angeles",
+      "description": "Curriculum: Probability Theory, Regression Analysis, Hypothesis Testing, Optimization, Statistical Models in Finance "
     }
+  
   ],
-  "experience_list": [
+  "experiences": [
     {
-      "year": "",
-      "job_title": "",
-      "company": "",
+      "year": "2020.06 - Current",
+      "job_title": "Data Analyst",
+      "company": "Americor",
       "description": ""
     },
     {
-      "year": "",
-      "job_title": "",
-      "company": "",
-      "description": ""
+      "year": "2020.01 - 2020.05",
+      "job_title": "Insight Data Engineering Fellow",
+      "company": "Insight",
+      "description": "Implemented a data pipeline by ingesting over 1.5TB/yr data with Spark and MySQL to create dashboard using Tableau to analyze news tone trend over period of time. \n Helped investors and marketing teams to understand the global tone trend on news event in order to make more profitable decision."
     },
     {
-      "year": "",
-      "job_title": "",
-      "company": "",
+      "year": "2018.12 - 2019.04",
+      "job_title": "Jr. Database Administrator",
+      "company": "OD Investments International Inc.",
       "description": ""
     }
   ]
