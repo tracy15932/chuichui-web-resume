@@ -1,26 +1,30 @@
 {
-  "total_year": "",
+  "total_year": "1",
   "resume_link": "",
-  "first_skill_title": "",
+  "first_skill_title": "TECHNICAL SKILLS",
   "first_skills": [
     {
-      "title": "",
-      "score": 35
+      "title": "Python",
+      "score": 9
     },
     {
-      "title": "",
-      "score": 25
+      "title": "MySQL",
+      "score": 9
     },
     {
-      "title": "",
-      "score": 25
+      "title": "Tableau",
+      "score": 8
+    },
+    {
+      "title": "AWS(EC2, RDS, S3)",
+      "score": 7
     }
   ],
-  "second_skill_title": "",
+  "second_skill_title": "OTHER SKILLS",
   "second_skills": [
     {
-      "title": "",
-      "score": 35
+      "title": "Machine Learning",
+      "score": 6
     },
     {
       "title": "",
