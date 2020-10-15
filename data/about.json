@@ -1,0 +1,45 @@
+{
+  "subtitles": "Artist, Thinker, Creative Doer, Fucker",
+  "story_title": "I am Web fucker/Designer @ fucker.com",
+  "services": [
+    {
+      "title": "Web Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."
+    },
+    {
+      "title": "Web Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."
+    },
+    {
+      "title": "Web Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."
+    },
+    {
+      "title": "Web Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor."
+    }
+  ],
+  "clients": [],
+  "func_facts": [
+    {
+      "icon": "",
+      "title": "",
+      "content": ""
+    },
+    {
+      "icon": "",
+      "title": "",
+      "content": ""
+    },
+    {
+      "icon": "",
+      "title": "",
+      "content": ""
+    },
+    {
+      "icon": "",
+      "title": "",
+      "content": ""
+    }
+  ]
+}
