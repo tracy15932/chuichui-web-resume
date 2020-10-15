@@ -1,8 +1,8 @@
 {
-  "subtitles": "Artist, Thinker, Creative Doer, Fucker",
-  "story_title": "I am Web fucker/Designer @ fucker.com",
-  "story_content_p1": "Very long story",
-  "story_content_p2": "Very long stroy 2",
+  "subtitles": "Analyst, Thinker, Engineering",
+  "story_title": "I'm currently a Data Analyst @Americor",
+  "story_content_p1": "Hi There! I am Binny, a data engineer with a background in math/econ and stats. I am currently actively looking for any open positions in data engineering or data analyst.",
+  "story_content_p2": "I enjoy getting insight out of the data and analyzing the findings to solve real-world problems. Most of my professional experience focuses on data management using MySQL to discover and manipulate data. Recently, I’ve worked on building a data pipeline to process large datasets using Python, Spark and AWS services. On my website, you can find some examples of my projects. I believe in lifelong learning so I would love to cooperate on any data related project. Have fun browsing and thank you for visiting!",
   "services": [
     {
       "title": "Web Design",
