@@ -6,6 +6,10 @@ class HomeAction {
     static findAboutMeInfo() {
         return require('../data/about');
     }
+
+    static findResumeInfo() {
+        return require('../data/resume');
+    }
 }
 
 module.exports = HomeAction;
