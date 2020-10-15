@@ -1,0 +1,62 @@
+<section class="pt-page pt-page-4" data-id="portfolio">
+    <div class="section-title-block">
+        <h2 class="section-title">Portfolio</h2>
+        <h5 class="section-description">My Best Works</h5>
+    </div>
+
+    <!-- Portfolio Content -->
+    <div class="portfolio-content">
+
+        <!-- Portfolio filter -->
+        <ul id="portfolio_filters" class="portfolio-filters">
+            <li class="active">
+                <a class="filter btn btn-sm btn-link active" data-group="all">All</a>
+            </li>
+            <li>
+                <a class="filter btn btn-sm btn-link" data-group="ml">Machine Learning</a>
+            </li>
+            <li>
+                <a class="filter btn btn-sm btn-link" data-group="da">Data Analysis</a>
+            </li>
+        </ul>
+        <!-- End of Portfolio filter -->
+
+        <!-- Portfolio Grid -->
+        <div id="portfolio_grid" class="portfolio-grid portfolio-masonry masonry-grid-3">
+
+            <!-- Portfolio Item 1 -->
+            <% for(let i = 0;i < portfolio_info.ml_list.length;i++){ %>
+                <% const item = portfolio_info.ml_list[i] %>
+                <figure class="item" data-groups='["all", "ml"]'>
+                    <a href="<%= item.url %>" title="<%= item.title %>"
+                       class="lightbox mfp-iframe">
+                        <img src="<%= item.img_url %>" alt="">
+                        <div>
+                            <h5 class="name"><%= item.name %>></h5>
+                            <small>Machine Learning</small>
+                            <i class="fa fa-server"></i>
+                        </div>
+                    </a>
+                </figure>
+            <% } %>
+            <% for(let i = 0;i < portfolio_info.da_list.length;i++){ %>
+                <% const item = portfolio_info.da_list[i] %>
+                <figure class="item" data-groups='["all", "da"]'>
+                    <a href="<%= item.url %>" title="<%= item.title %>"
+                       class="lightbox mfp-iframe">
+                        <img src="<%= item.img_url %>" alt="">
+                        <div>
+                            <h5 class="name"><%= item.name %>></h5>
+                            <small>Data Analysis</small>
+                            <i class="fa fa-database"></i>
+                        </div>
+                    </a>
+                </figure>
+            <% } %>
+        </div>
+        <!-- /Portfolio Grid -->
+
+    </div>
+    <!-- /Portfolio Content -->
+
+</section>

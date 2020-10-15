@@ -10,6 +10,10 @@ class HomeAction {
     static findResumeInfo() {
         return require('../data/resume');
     }
+
+    static findPortfolioInfo() {
+        return require('../data/portfolio');
+    }
 }
 
 module.exports = HomeAction;
